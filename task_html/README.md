@@ -10,6 +10,9 @@
     - Footer
 - Catatan: seluruh asset yang digunakan harus diletakan pada folder tersendiri dalam folder task_html
 
+## Active Pages
+[Tugas Individu 1](https://adislksn.github.io/Pemrograman-Web/task_html)
+
 ## Folder Structure
 ```
 task_html

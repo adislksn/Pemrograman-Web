@@ -1,8 +1,8 @@
 # Repository Pemrograman Web
 Repository ini berisi file-file tugas mata kuliah Pemrograman Web.
 
-## Tugas Individu 1
-[Tugas Individu 1](task_html/README.md)
+## List Tugas
+[Tugas Individu 1](https://adislksn.github.io/Pemrograman-Web/task_html/)
 
 ## Folder Structure
 ```
