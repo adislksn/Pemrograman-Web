@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adi Sulaksono">
+    <meta name="description" content="Tugas Individu 1">
+    <meta name="keywords" content="Pemweb, Pemrograman Web, Pagani Zonda">
+    <title>Tugas Individu 1 | 120140038</title>
+    <style>
+        #carrousel::-webkit-scrollbar {
+            display: none;
+        }
+        .carrousel-item:hover {
+            object-fit: contain !important;
+        }
+    </style>
+</head>
+<body style="width: 100%;margin: 0;padding: 0; display: flex;flex-direction: column;align-items: center;background-color: #16161a;">
+    <nav style="
+        top: 2%;
+        position: sticky;
+        z-index: 99;
+        background: rgba(43, 181, 124, 0.45);
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid #010101;
+        border-radius: 15px;
+        min-width: 80%;
+        display:flex;
+        justify-content: space-between;
+        margin: 10px 5px; 
+        padding: 2px 20px; 
+        align-items: center;
+        ">
+        <a href="https://adislksn.web.id" target="_blank" style="position: relative;padding: 0;margin: 0;">
+            <img loading="lazy" draggable="false" src="./assets/logo.webp" alt="logo" style="object-fit: cover;max-width: 40px;max-height: 40px;border-radius: 50%;">
+        </a>
+        <ul style="list-style: none;display: flex;gap: 20px;">
+            <li>
+                <a href="#thumbnail" style="color: whitesmoke;text-decoration: none;">
+                    Thumbnail
+                </a>
+            </li>
+            <li>
+                <a href="#carrousel" style="color: whitesmoke;text-decoration: none;">
+                    Carrousel
+                </a>
+            </li>
+            <li>
+                <a href="#paragraph" style="color: whitesmoke;text-decoration: none;">
+                    Paragraph
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main style="width: 100%;display: flex;flex-direction: column;align-items: center;margin-top: 2%;overflow-x: hidden;">
+        <section id="thumbnail" style="position: relative;width: 80%;">
+            <img loading="lazy" draggable="false" src="./assets/zonda.webp" alt="logo" style="object-fit: cover;width: 100%;height: 650px;border-radius: 20px;">
+            <div style="
+                position: absolute;
+                bottom: 2%;
+                left: 20%;
+                background-color: rgba( 43, 181, 124, 0.45 );
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border-radius: 10px;
+                padding: 20px;
+                ">
+                <h1 id="title" style="color: whitesmoke;">
+                    Pagani Zonda
+                </h1>
+                <p style="color: whitesmoke;">
+                    Pagani Zonda adalah mobil yang terasa lebih seperti legenda daripada sekadar mesin, sebuah karya yang lahir dari mimpi Horacio Pagani, seorang insinyur asal Argentina dengan hasrat besar terhadap mobil performa tinggi. Ketika Pagani memperkenalkan Zonda pada tahun 1999, itu bukan sekadar supercar lain yang memasuki pasa, itu adalah pernyataan seni otomotif, mendorong batasan tentang apa yang bisa menjadi sebuah mobil.
+                </p>
+            </div>
+        </section>
+
+        <section id="carrousel" style="width: 80%; color: #dadada; display: flex; gap: 10px; overflow-x: scroll; margin: 5px 0; position: relative;">
+            <div style="display: flex; gap: 10px; cursor: grab;">
+                <div>
+                    <img class="carrousel-item" loading="lazy" draggable="false" src="./assets/zonda-interior.webp" alt="logo" style="object-fit: cover; width: 300px; height: 300px; border-radius: 20px;">
+                </div>
+                <div>
+                    <img class="carrousel-item" loading="lazy" draggable="false" src="./assets/zonda-bumper.webp" alt="logo" style="object-fit: cover; width: 300px; height: 300px; border-radius: 20px;">
+                </div>
+                <div>
+                    <img class="carrousel-item" loading="lazy" draggable="false" src="./assets/zonda-front.webp" alt="logo" style="object-fit: cover; width: 300px; height: 300px; border-radius: 20px;">
+                </div>
+                <div>
+                    <img class="carrousel-item" loading="lazy" draggable="false" src="./assets/zonda-showcase.webp" alt="logo" style="object-fit: cover; width: 300px; height: 300px; border-radius: 20px;">
+                </div>
+                <div>
+                    <img class="carrousel-item" loading="lazy" draggable="false" src="./assets/zonda-showcase-2.webp" alt="logo" style="object-fit: cover; width: 300px; height: 300px; border-radius: 20px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="paragraph" style="width: 80%;color: #dadada;text-align: justify;">
+            <div alt="Horacio Pagani" style="
+                width: 200px;
+                height: 200px;
+                background: url('./assets/Horacio-Pagani.webp');
+                background-position: center center;
+                background-size: cover;
+                border-radius: 50%;
+                float: left;
+                shape-outside: circle();
+                margin: 10px 20px 0 0;
+                "></div>
+            <p>
+                Horacio Pagani adalah seorang insinyur dan desainer otomotif asal Argentina yang dikenal sebagai pendiri Pagani Automobili, perusahaan yang menciptakan beberapa supercar paling eksotis di dunia, termasuk Zonda dan Huayra. Lahir pada tahun 1955 di Casilda, Argentina, Pagani tumbuh dengan hasrat besar terhadap dunia otomotif dan teknik. Di awal karirnya, dia bekerja di Lamborghini, di mana dia berkontribusi pada pengembangan model-model ikonik seperti Countach. Namun, impiannya adalah menciptakan mobil yang sempurna dengan perpaduan seni dan teknologi. Pada tahun 1992, dia mendirikan Pagani Automobili di Modena, Italia, dan merevolusi dunia supercar dengan filosofi desain yang menggabungkan aerodinamika, material mutakhir seperti serat karbon, dan performa ekstrem, menjadikannya salah satu figur legendaris dalam dunia otomotif.
+            </p>
+            <p>
+                Bayangkan, untuk sesaat, garis-garis aerodinamis Zonda menangkap sinar matahari, bodinya merupakan perpaduan antara aerodinamika dan keindahan murni. Bentuk mobil ini sangat dipengaruhi oleh desain pesawat, dan bodinya yang terbuat dari serat karbon membuatnya terasa seperti jet tempur di atas roda. Ini bukan sekadar soal tampilan cepat—ini soal performa dengan presisi yang hanya bisa dihasilkan oleh keahlian tertinggi. Setiap lekukan, setiap permukaan di Zonda dipahat dengan teliti untuk meningkatkan kecepatannya dan kelincahannya.
+            </p>
+            <p>
+                Tapi mari kita bicara tentang apa yang ada di balik eksterior yang memukau itu—jantung dari binatang buas ini. Di inti performa Zonda terletak mesin V12 Mercedes-Benz AMG yang dipasang di tengah dan tanpa turbo. Tergantung pada modelnya, mesin ini menghasilkan tenaga mulai dari 444 tenaga kuda di Zonda C12 versi awal hingga tenaga yang luar biasa, 789 tenaga kuda di Zonda Revolución. Suara mesin V12 ini tidak ada duanya, dengan raungan rendah yang mendalam dan berubah menjadi deru ledakan saat mencapai putaran tinggi. Ini membuat mobil melaju dari 0 hingga 100 km/jam dalam waktu kurang dari 3,5 detik pada model dasarnya, dan bahkan lebih cepat pada varian yang lebih ekstrem. Kecepatan tertingginya? Lebih dari 350 km/jam, memastikan bahwa Zonda menjadi pesaing serius di dunia hypercar.
+            </p>
+            <p>
+                Salah satu hal yang membuat Zonda begitu istimewa adalah cara mengemudikannya. Pagani tidak hanya ingin membuat mobil cepat—dia ingin membuat mobil yang membuat pengemudinya merasa terhubung dengan jalanan, dengan pengalaman itu sendiri. Sasis Zonda ringan, berkat penggunaan serat karbon dan titanium yang ekstensif pada model-model belakangan, dan suspensinya setajam mobil balap, memberikan umpan balik yang membuat setiap tikungan, setiap lintasan terasa hidup. Ini adalah jenis mobil di mana pengemudi menjadi bagian dari mesin, di mana Anda tidak hanya mengemudi—Anda mengalir bersama jalan, seolah-olah mobil dan pengemudi adalah satu kesatuan.
+            </p>
+            <p>
+                Di dalam kabin Zonda, keahlian tangan terus berlanjut. Interiornya terasa seperti studio seni Italia—kulit, aluminium, dan serat karbon dipadukan dengan detail yang sangat teliti sehingga hanya sedikit mobil yang bisa menandinginya. Panel instrumennya adalah perpaduan antara dial analog yang terasa hampir retro di dunia yang penuh teknologi saat ini, tetapi mereka memberikan mobil ini nuansa yang abadi, seolah-olah Zonda berada di dunianya sendiri, terpisah dari tren atau pilihan desain yang sekadar sementara.
+            </p>
+            <p>
+                Selama bertahun-tahun, Pagani merilis berbagai versi Zonda, masing-masing lebih ekstrem dan terbatas dari yang sebelumnya. Ada Zonda S, Zonda F, dan Zonda Cinque yang sangat luar biasa, dengan hanya lima unit yang diproduksi. Kemudian muncul Zonda R, yang pada dasarnya adalah mobil balap yang entah bagaimana diizinkan berkeliaran di jalan umum. Dan ketika semua orang berpikir bahwa kisah Zonda telah berakhir, Pagani merilis Zonda Revolución—perpisahan terakhir untuk sebuah mobil yang telah mendefinisikan sebuah era.
+            </p>
+        </section>
+    </main>
+
+    <footer style="
+        background: rgba(43, 181, 124, 0.45);
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid #010101;
+        border-radius: 15px;
+        min-width: 80%;
+        display:flex;
+        justify-content: space-between;
+        margin: 10px 5px; 
+        padding: 2px 20px; 
+        align-items: center;
+        ">
+        <p style="color: whitesmoke;text-align: center;">
+            &copy; 2021 Adi Sulaksono | 120140038
+        </p>
+    </footer>
+</body>
+</html>
